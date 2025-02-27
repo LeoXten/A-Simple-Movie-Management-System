@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Movie List</title>
+    <link rel="stylesheet" href="styles2.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <a href="index.html">HOME</a>
+            <a href="movie.html">VIEW MOVIE</a>
+        </nav>
+    </header>
+    <div class="movie-container">
+        <h2>Movie List</h2>
+        <input type="text" id="searchBox" placeholder="Search movies...">
+        <table class="movie-table">
+            <thead>
+                <tr>
+                    <th>NAME</th>
+                    <th>DESCRIPTION</th>
+                    <th>YEAR</th>
+                    <th>IMDB RATING</th>
+                    <th>GENRE</th>
+                    <th>POSTER</th>
+                    <th>ACTION</th>
+                </tr>
+            </thead>
+            <tbody id="movieList">
+                <!-- Movie items will be dynamically added here -->
+            </tbody>
+        </table>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
