@@ -1,4 +1,4 @@
-# A-Simple-Movie-Management-System
+Movie Management System
 
 A simple web app to add, view, search, and delete movies using Local Storage.
 
@@ -32,9 +32,7 @@ HTML, CSS, JavaScript
 
 Local Storage for data persistence
 
-License
 
-MIT License.
 
-Developed by [Your Name]
+Developed by Debanjan Ghosh
 
